@@ -1,8 +1,8 @@
 import { Schema, model } from "mongoose";
 
 const serviceCategoriesSchema = new Schema({
-    name: { type: String },
-    description: {type: Text },
+    name: { type: String, required: true },
+    description: { type: String, required: true },
 }, {
     versionKey: false,
     timestamps: true
