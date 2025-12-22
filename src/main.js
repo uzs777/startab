@@ -18,5 +18,7 @@ app.all(/(.*)/, (req, res, next) => {
     next(new ApiError("not funt ulr", 404))
 })
 
+console.log("sezxdrctfvygbuhnij");
+
 app.use(errorHandler);
 app.listen(PORT, () => console.log('server running on port', PORT));
