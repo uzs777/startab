@@ -3,7 +3,7 @@ import { envConfig } from './config/index.js'
 import { connectDB } from './config/db.js';
 import { createSuperAdmin } from "./helpers/create-superadmin.js"
 import { errorHandler } from "./middlewares/error-handling.js"
-import router from './router/index.js';
+import router from './router/index.route.js';
 
 const app = express();
 const PORT = envConfig.PORT;
